@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fetch and display projects from GitHub API
   const fetchProjects = async () => {
     try {
-      const response = await fetch("https://api.github.com/orgs/TEAM-AMBUU/repos")
+      const response = await fetch("https://api.github.com/orgs/Owls-of-Nights/repos")
       const projects = await response.json()
       const projectsGrid = document.querySelector(".projects-grid")
 
